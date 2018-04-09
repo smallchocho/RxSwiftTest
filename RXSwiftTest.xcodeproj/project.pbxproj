@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CB8557BDD41F4EE521655002 /* Pods_RXSwiftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26725E060EDB9502A5517595 /* Pods_RXSwiftTest.framework */; };
+		D0217576207B38B600AD9BDA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0217575207B38B600AD9BDA /* User.swift */; };
 		D0E05D2B207A5F2400BB36B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E05D2A207A5F2400BB36B7 /* AppDelegate.swift */; };
 		D0E05D2D207A5F2400BB36B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E05D2C207A5F2400BB36B7 /* ViewController.swift */; };
 		D0E05D30207A5F2400BB36B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E05D2E207A5F2400BB36B7 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		26725E060EDB9502A5517595 /* Pods_RXSwiftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A55C9AFAE9CC75BEE036E96 /* Pods-RXSwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwiftTest/Pods-RXSwiftTest.release.xcconfig"; sourceTree = "<group>"; };
 		8523A1DA079C4E96B7429DCC /* Pods-RXSwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwiftTest/Pods-RXSwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D0217575207B38B600AD9BDA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D0E05D27207A5F2400BB36B7 /* RXSwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E05D2A207A5F2400BB36B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0E05D2C207A5F2400BB36B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				D0E05D2A207A5F2400BB36B7 /* AppDelegate.swift */,
 				D0E05D2C207A5F2400BB36B7 /* ViewController.swift */,
+				D0217575207B38B600AD9BDA /* User.swift */,
 				D0E05D2E207A5F2400BB36B7 /* Main.storyboard */,
 				D0E05D31207A5F2700BB36B7 /* Assets.xcassets */,
 				D0E05D33207A5F2700BB36B7 /* LaunchScreen.storyboard */,
@@ -208,6 +211,7 @@
 			files = (
 				D0E05D2D207A5F2400BB36B7 /* ViewController.swift in Sources */,
 				D0E05D2B207A5F2400BB36B7 /* AppDelegate.swift in Sources */,
+				D0217576207B38B600AD9BDA /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +359,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2GC9BV99WC;
 				INFOPLIST_FILE = RXSwiftTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.JusitnH.RXSwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -371,7 +378,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2GC9BV99WC;
 				INFOPLIST_FILE = RXSwiftTest/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = co.JusitnH.RXSwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
