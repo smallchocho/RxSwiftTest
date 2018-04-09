@@ -7,9 +7,19 @@
 //
 
 import UIKit
-
+import RxSwift
+import RxCocoa
 class ViewController: UIViewController {
-
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var phoneNumber: UILabel!
+    @IBOutlet weak var emailAddress: UILabel!
+    
+    private let disposeBag = DisposeBag()
+    
+    
+    @IBAction func settingButtonClicked(_ sender:UIButton){
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
